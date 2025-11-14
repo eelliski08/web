@@ -4,6 +4,14 @@
 	let { children } = $props();
 </script>
 
+<nav> 
+	<a href="/">Home</a>
+	<a href="/photoapp">Photo App</a>
+	<a href="/register">register</a>
+</nav>
+
+
+
 <svelte:head>
 	<link rel="icon" href={favicon} />
 </svelte:head>
