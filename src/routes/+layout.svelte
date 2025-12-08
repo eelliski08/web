@@ -2,14 +2,15 @@
 	import favicon from '$lib/assets/favicon.svg';
 
 	let { children } = $props();
+	import { base } from '$app/paths';
 </script>
 
 <nav> 
-	<a href="/">Home</a>
-	<a href="/photoapp">Photo App</a>
-	<a href="/register">Register</a>
-	<a href="/shoppinglist">Shopping Lista</a>
-	<a href="/memory">Memory</a>
+	<a href="{base}/">Home</a>
+	<a href="{base}/photoapp">Photo App</a>
+	<a href="{base}/register">Register</a>
+	<a href="{base}/shoppinglist">Shopping Lista</a>
+	<a href="{base}/memory">Memory</a>
 </nav>
 
 
