@@ -80,6 +80,7 @@
     display: grid;
     grid-template-rows: 1fr 9fr 1fr;
     margin: auto;
+
 }
 
 .container h1{
